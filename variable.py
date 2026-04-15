@@ -55,3 +55,4 @@ A = "Hidden"
 def myfunc():
     print("Rajesh is similar to " + A)
 myfunc()
+
