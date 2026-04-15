@@ -52,9 +52,9 @@ print(len(text))
 
 num = 2 
 if(num%2==0):
-    print("Its a even")
+    print("It is even")
 else:
-    print("Its a odd")
+    print("It is odd")
 
 
 #10 Store marks in a variable and print “Pass” or “Fail” 
