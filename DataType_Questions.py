@@ -36,3 +36,4 @@ print(float(num1),type(num1))
 add = num + num1
 print(add,type(add))
 
+

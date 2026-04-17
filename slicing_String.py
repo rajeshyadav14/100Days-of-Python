@@ -49,3 +49,25 @@ print(substr11)
 # 2. output: "Por"
 # 3. output: "gnimmargorP"
 # 4. output: "rgaig"
+
+
+
+text1 = "Pythonic"
+print(text1)
+
+t = text1[2:6]
+print(t)
+
+e = text1[:6:2]
+print(e)
+
+x = text1[::-1]
+print(x)
+
+t = text1[-3:]
+print(t)
+
+# 1. "thon"
+# 2. "Pto"
+# 3. reverse (use slicing)
+# 4. "nic"
