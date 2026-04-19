@@ -103,13 +103,13 @@ else:
 
 #8. Divisibility Checker : Divisible by both 3 and 5 , Only by 3 ,Only by 5, Not divisible
 
-num = float(input("Enter Number: "))
+num = int(input("Enter Number: "))
 
 if num % 3 == 0 and num % 5 == 0:
     print(f"Divisible by both 3 and 5: {num}")
 elif num % 3 == 0:
     print(f"Only Divisble by 3: {num}")
 elif num % 5 == 0:
-    print(f"Only Divisible by 5: ")
+    print(f"Only Divisible by 5: {num}")
 else:
     print(f"Not Divisible by 3 and 5: {num}")
