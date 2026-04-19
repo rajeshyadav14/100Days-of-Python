@@ -45,6 +45,7 @@ else:
 '''
 
 #5. Largest of 3 Numbers
+'''
 num1 = float(input("Enter Number 1: "))
 num2 = float(input("Enter Number 2: "))
 num3 = float(input("Enter Number 3: "))
@@ -57,4 +58,58 @@ elif num2 >= num1 and num2 >= num3:
     print(f"{num2} is the largest number")
 else:
     print(f"{num3} is the largest number")
+'''
 
+#6. Take marks as input and print grade: ≥ 90 → Grade A, ≥ 70 → Grade B, ≥ 50 → Grade C, < 50 → Fail
+'''
+marks = int(input("Enter Marks: "))
+
+if marks >= 90:
+    print(f"Grade A: {marks}")
+elif marks >= 70:
+    print(f"Grade B: {marks}")
+elif marks >= 50:
+    print(f"Grade C: {marks}")
+else:
+    print(f"Fail: {marks}")
+'''
+
+#7. Simple Calculator
+'''
+num1 = float(input("Enter Number 1: "))
+num2 = float(input("Enter Number 2: "))
+
+operator = input("Select Operator: ")
+
+if operator == "+": 
+    result = num1 + num2
+    print(f"{num1} {operator} {num2} = {result}")
+elif operator == "-":
+    result = num1 - num2
+    print(f"{num1} {operator} {num2} = {result} ")
+elif operator == "*":
+    result = num1 * num2
+    print(f"{num1} {operator} {num2} = {result}")
+elif operator == "/":
+    if num2 == 0:
+        print("Cannot divide by zero")
+    else:
+        result = num1 / num2
+        print(f"{num1} {operator} {num2} = {result}")   
+else:
+    print("Invalid Operator")
+'''
+
+
+#8. Divisibility Checker : Divisible by both 3 and 5 , Only by 3 ,Only by 5, Not divisible
+
+num = float(input("Enter Number: "))
+
+if num % 3 == 0 and num % 5 == 0:
+    print(f"Divisible by both 3 and 5: {num}")
+elif num % 3 == 0:
+    print(f"Only Divisble by 3: {num}")
+elif num % 5 == 0:
+    print(f"Only Divisible by 5: ")
+else:
+    print(f"Not Divisible by 3 and 5: {num}")
