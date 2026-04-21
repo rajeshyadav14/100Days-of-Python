@@ -53,7 +53,7 @@ print(f"Sum is {total}")
 '''
 
 # Write a program to calculate the sum of the first n even numbers using a mathematical formula.
-
+'''
 n = int(input("Enter Number: "))
 total = 0
 for i in range(1, n+1):
@@ -62,6 +62,25 @@ for i in range(1, n+1):
         total += i
 
 print("\n",total, end=" ")
+'''
+
+# Reverse a Word 
+'''
+word = input("Enter Word: ")
+
+for i in range(len(word)-1,-1,-1):
+    print(word[i],end="")
+'''
+
+
+word = input("Enter Word: ")
+rev = ""
+
+for ch in word:
+    rev = ch + rev
+
+print(rev)
+
 
 
 
