@@ -101,7 +101,7 @@ while n > 0:
 '''
 
 #Fibonacci Series using while loop with limit
-
+'''
 n = int(input("Enter Number: ")) 
 prev = 0
 curr = 1
@@ -112,7 +112,7 @@ while prev <= n:
     prev = curr
     curr = next
    
-
+'''
 #Fibonacci without using next variable
 '''
 n = int(input("Enter Numbers: "))
@@ -127,3 +127,30 @@ while n > 0:
     n -= 1
 
 '''
+
+# Find largest digit in a number
+'''
+n = int(input("Enter Numbers: "))
+max_digit = 0
+
+while n > 0:
+    digit = n % 10  
+    if digit > max_digit:
+        max_digit = digit      
+    n = n // 10
+
+print(max_digit)
+'''    
+
+#Find Smallest digit in a Number
+
+n = int(input("Enter Number: "))
+min_digit = 9
+
+while n > 0:
+    digit = n % 10
+    if digit < min_digit:
+        min_digit = digit
+    n = n // 10
+
+print(min_digit)
